@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PantelisComponent } from './components/pantelis/pantelis.component';
+import { DoraComponent } from './components/dora/dora.component';
+import { MyComponentComponent } from './components/my-component/my-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PantelisComponent,
+    DoraComponent,
+    MyComponentComponent
   ],
   imports: [
     BrowserModule,
