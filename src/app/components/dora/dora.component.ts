@@ -13,7 +13,7 @@ export class DoraComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    console.log('dora destroyed')
+    console.log('dora component destroyed')
   }
 
 }
